@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+}
+
+#product-overview {
+  background: url('freedom.jpg');
+  background-size: cover;
+  width: 600px;
+  height: 400px;
+}
+
+#product-overview h1 {
+  color: whitesmoke;
+  font-family: 'Be Vietnam', sans-serif;
+}
+
+.plan {
+  background-color: rgb(251, 248, 222);
+  text-align: center;
+  padding: 16px;
+  margin: 8px;
+  display: inline-block;
+  width: 30%;
+  verticla-align: middle;
+}
+
+.plan--highlighted {
+  background-color: rgb(255, 247, 172);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.plan__annotation {
+  background-color: wheat;
+  color: rgb(82, 39, 39);
+  padding: 5px;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.section-title {
+  text-align: center;
+}
+
+h1 {
+  color: rgb(104, 13, 13);
+  font-family: 'Be Vietnam', sans-serif;
+}
+
+.main-header {
+  background: #f0ea98;
+  width: 100%;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.main-header>div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-header__brand {
+  color: rgb(12, 65, 12);
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 140px);
+  vertical-align: middle;
+}
+
+.main-nav__item {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 1.3rem;
+}
+
+.main-nav__item a {
+  color: rgb(12, 65, 12);
+  font-weight: 600;
+  text-decoration: none;
+  padding: 2px 0;
+
+}
+
+.main-nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+  color: #271a03;
+  border-bottom: 3px solid #1f1400ef;
+}
+
+.main-nav__item--cta a {
+  background: rgb(202, 202, 74);
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+  color: #755723;
+  background: #e9d148;
+  border-radius: 6px;
+  border-bottom: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Selectors 
+
+Elements       h1
+Classes       .blog-post
+Universal     * 
+ID            #main
+Attribute     <button disabled>   [disabled] {color: red;}
+
+Rules have different priorities. Specifity, Cascading: Inline >> ID >> Class,pseudo-class >> tag and pseudo-element
+
+* Inheritance 
+
+* Combinators
+1> adjacent sibling  h2 + p >> right next p after h2.
+2> general sibling   h2 ~ p >> all p next the h2
+3> child             div > p >> all p directly after div, not nested p
+4> descendan         div p   >> level doesn't matter, all p after and inside div
+
+*/
