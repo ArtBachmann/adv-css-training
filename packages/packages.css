@@ -1,0 +1,42 @@
+main {
+  padding-top: 32px;
+}
+
+.package {
+  width: 80%;
+  margin: 16px 0;
+  border: 3px solid var(--brownRed);
+  border-left: none;
+}
+
+.package a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 32px;
+}
+
+.package__subtitle {
+  color: var(--grayMain);
+  font-size: 2rem;
+}
+
+.package__info {
+  padding: 16px;
+  border: 2px solid var(--brownRed);
+  font-size: 1.6rem;
+  color: var(--brownRed);
+  background: white;
+}
+
+#plus {
+  background: rgba(214, 255, 171, 0.589);
+}
+
+#free {
+  background: rgba(198, 255, 205, 0.554);
+}
+
+#premium {
+  background: rgba(233, 248, 160, 0.554);
+}
