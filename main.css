@@ -14,6 +14,12 @@
   font-size: 3rem;
 }
 
+.plan__list {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
 .plan {
   background-color: rgb(251, 248, 222);
   text-align: center;

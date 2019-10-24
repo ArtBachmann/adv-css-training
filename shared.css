@@ -32,10 +32,14 @@ body {
 
 
 .main-header {
+  position: fixed;
   background: #f0ea98;
   width: 100%;
   padding: 10px 20px;
+  top: 0;
+  left: 0;
   display: inline-block;
+  z-index: 3;
 }
 
 .main-header>div {
